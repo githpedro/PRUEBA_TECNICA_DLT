@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan&display=swap');
+
+.error-message, .success-message {
+  color: #ff0000; 
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #ffe5e5;
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.success-message {
+  border: 1px solid green;
+  background-color: #e5ffe5;
+  color: green;
+}
+
+.caregiver-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-family: 'Sedan', serif;
+  color: #333;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.caregiver-image {
+  width: 20%;
+  height: 100vh;
+  background-image: url('/assets/caretaker.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.teacher-image {
+  width: 20%;
+  height: 100vh;
+  background-image: url('/assets/master.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.caregiver-content {
+  width: 80%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+
+  button {
+    background-color: white;
+    color: #222222;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Sedan SC;
+  }
+
+  button:hover {
+      background-color: #f1e8f9;
+  }
+}
+
+.title {
+  font-family: 'Sedan SC', serif;
+  color: #C77E01;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.title2 {
+  font-family: 'Sedan SC', serif;
+  color: #C77E01;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.title3 {
+  font-family: 'Sedan SC', serif;
+  color: #C77E01;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  align-self: center; 
+}
+
+.text {
+  font-family: 'Sedan', serif;
+  color: #777777;
+  margin-bottom: 2rem;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+}
+
+.new-creature-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-family: 'Sedan', serif;
+  color: #333;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.creature-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 2rem;
+}
+
+.creature-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  column-gap: 2rem; 
+  row-gap: 1rem;
+  width: 100%;
+  background-color: #ffffff; 
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.creature-form label {
+  grid-column: span 1; 
+  font-family: 'Sedan', serif;
+  color: #9C5CE1;
+  margin-top: 1rem;
+}
+
+.creature-form input,
+.creature-form select {
+  width: 90%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f0f0f0; 
+}
+
+.creature-form .submit-button {
+  grid-column: span 2;
+  background-color: #9C5CE1;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 1rem;
+  text-align: center;
+  width: 20%; 
+  justify-self: center; 
+  font-family: 'Sedan SC';
+}
+
+.creature-form .submit-button:hover {
+  background-color: #C77E01;
+}
+
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-end;
+  justify-content: space-evenly; 
+  gap: 10rem; 
+  width: 20%; 
+  grid-column: span 2; 
+  margin-top: 2rem;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-end; 
+  gap: 0.5rem;
+}
+
+.checkbox-group input[type='checkbox'] {
+  margin-right: 0.5rem; 
+}

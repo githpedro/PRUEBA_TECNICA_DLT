@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/creatures": "pages/creatures.js",
+  "/creatures/newCreature": "pages/creatures/newCreature.js",
+  "/auth/login": "pages/auth/login.js",
+  "/api/creatures": "pages/api/creatures.js",
+  "/roles/teacher": "pages/roles/teacher.js",
+  "/api/creatures/[id]": "pages/api/creatures/[id].js",
+  "/auth/register": "pages/auth/register.js",
+  "/api/auth/registerApi": "pages/api/auth/registerApi.js",
+  "/roles/caregiver": "pages/roles/caregiver.js"
+}

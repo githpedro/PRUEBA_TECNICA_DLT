@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan&display=swap');
+
+.error-message, .success-message {
+    color: #ff0000; 
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #ffe5e5;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .success-message {
+    border: 1px solid green;
+    background-color: #e5ffe5;
+    color: green;
+  }
+
+.caregiver-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-family: 'Sedan', serif;
+    color: #333;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.caregiver-image {
+    width: 20%;
+    height: 100vh;
+    background-image: url('/assets/caretaker.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.teacher-image {
+    width: 20%;
+    height: 100vh;
+    background-image: url('/assets/master.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.caregiver-content {
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2rem; 
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 90%;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+
+    button {
+        background-color: white;
+        color: #222222;
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-family: Sedan SC;
+    }
+
+    button:hover {
+        background-color: #f1e8f9;
+    }
+}
+
+.title {
+    font-family: 'Sedan SC', serif;
+    color: #C77E01;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.title2 {
+    font-family: 'Sedan SC', serif;
+    color: #C77E01;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.title3 {
+    font-family: 'Sedan SC', serif;
+    color: #9C5CE1;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-family: 'Sedan', serif;
+    color: #777777;
+    margin-bottom: 2rem;
+}
+
+.label {
+    font-family: 'Sedan', serif;
+    color: #9C5CE1;
+    margin-top: 1rem;
+}
+
+.input, 
+.textarea {
+    width: 100%; 
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.textarea {
+    height: 8rem;
+}
+
+
+.filter-container {
+    width: 20%; 
+    padding: 1rem;
+    border-right: 1px solid #ddd; 
+}
+
+.filter-types {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.confirm-button {
+    background-color: #9C5CE1;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Sedan SC', serif;
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+
+.confirm-button:hover {
+    background-color: #C77E01;
+}
+
+
+.table-container {
+    width: 75%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+
+.creature-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.creature-table th, 
+.creature-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.creature-table th {
+    background-color: #f4f4f4;
+    color: #9C5CE1;
+    font-family: 'Sedan SC', serif;
+}
+
+.creature-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+.edit-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.edit-button:hover {
+    content: attr(title);
+}
+
+.save-button{
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.edit-button:hover{
+    content: attr(title);
+}
+
+.cancel-button{
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.cancel-button:hover{
+    content: attr(title);
+}
+
+.delete-button {
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.delete-button:hover {
+    content: attr(title);
+}
+
+.no-creatures {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    padding: 2rem;
+}
+
+.add-button {
+    background-color: #9C5CE1;
+    color: white;
+    border: none;
+    width: 30%;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: 'Sedan SC', serif;
+}
+
+.add-button:hover {
+    background-color: #C77E01;
+}
+
+.p-creature{
+    width: 30%;
+    font-weight: bold;
+}
+
+.total{
+    padding: 2rem;
+    font-weight: bold;
+}

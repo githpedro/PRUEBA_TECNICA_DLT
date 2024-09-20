@@ -1,0 +1,21 @@
+{
+    "register": "Registro",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "caretaker": "Cuidador",
+    "teacher": "Maestro",
+    "register_button": "Registrarse",
+    "already_have_account": "¿Ya tienes cuenta?",
+    "login_here": "Inicia sesión aquí",
+    "caregiver_dashboard": "Dashboard de Cuidador",
+    "logout": "Cerrar Sesión",
+    "view_creatures": "Ver Mis Criaturas",
+    "my_creatures": "Mis Criaturas",
+    "name": "Nombre",
+    "type": "Tipo",
+    "power_level": "Nivel de Poder",
+    "no_creatures": "No tienes criaturas asignadas",
+    "teacher_dashboard": "Dashboard de Maestro",
+    "total_creatures": "Total de criaturas creadas",
+    "creatures_list": "Lista de Criaturas"
+}

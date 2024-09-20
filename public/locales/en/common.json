@@ -1,0 +1,22 @@
+{
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "caretaker": "Caretaker",
+    "teacher": "Teacher",
+    "register_button": "Sign Up",
+    "already_have_account": "Already have an account?",
+    "login_here": "Login here",
+    "caregiver_dashboard": "Caregiver Dashboard",
+    "logout": "Logout",
+    "view_creatures": "View My Creatures",
+    "my_creatures": "My Creatures",
+    "name": "Name",
+    "type": "Type",
+    "power_level": "Power Level",
+    "no_creatures": "You have no assigned creatures",
+    "teacher_dashboard": "Teacher Dashboard",
+    "total_creatures": "Total Creatures Created",
+    "creatures_list": "List of Creatures"
+  }
+  

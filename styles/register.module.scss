@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+.error-message, .success-message {
+    color: #ff0000; /* Cambia a verde si es success */
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #ffe5e5;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .success-message {
+    border: 1px solid green;
+    background-color: #e5ffe5;
+    color: green;
+  }
+  
+  
+.register-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; // Asegura que ocupe el 100% de la altura de la pantalla
+    width: 100%;  // Ocupa todo el ancho
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    position:absolute;
+    overflow: hidden;  // Evita el scroll
+    font-family: Sedan;
+}
+
+
+.register-image {
+    height: 100rem;  // Ocupa toda la altura
+    width: 60vw;  // El 60% del ancho para la imagen
+    background-image: url("/assets/register.png");
+    background-size: cover;
+    background-position: center;
+    transform: scaleX(-1);  // Invierte la imagen para que mire hacia la derecha
+}
+
+.register-form-container {
+    width: 40vw;  // El 40% del ancho para el formulario
+    height: 100%;  // El formulario también debe ocupar el 100% de la altura de la pantalla
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.85);  // Fondo blanco semitransparente
+    box-sizing: border-box;
+}
+
+.register-form {
+    width: 80%;
+    margin-bottom: 10rem;
+    margin-right: 10rem;  // Asegura que el formulario use la mayor parte del contenedor
+}
+
+.register-form h1 {
+    font-family: 'Sedan SC', serif;
+    color: #C77E01;
+    font-size: 1.5rem;  // Ajuste de tamaño para que se vea proporcionalmente más pequeño
+    margin-bottom: 2rem;  // Más separación entre el título y el párrafo
+}
+
+.register-form p {
+    font-family: 'Sedan', serif;
+    color: #777777;
+    margin-bottom: 1.5rem;  // Incrementa el espacio debajo del párrafo
+}
+
+.register-form label {
+    display: block;
+    font-family: 'Sedan', serif;
+    color: #9C5CE1;
+    margin-bottom: 0.5rem;  // Más espacio debajo del label
+}
+
+.register-form input,
+.register-form select {
+    width: 100%;
+    padding: 1.2rem;  // Aumentamos el padding para dar más espacio interno
+    margin-bottom: 1rem;  // Incrementamos el margen inferior para dar más espacio entre los inputs
+    border: 1px solid #222222;
+    border-radius: 4px;
+    font-family: 'Sedan', serif;
+    box-sizing: border-box; // Para que todos los elementos tengan el mismo tamaño
+}
+
+.register-form button {
+    width: 70%;  // Asegura que el botón ocupe todo el ancho
+    padding: 1.2rem;  // Haz el botón más grande
+    background-color: #9C5CE1;
+    color: white;
+    font-family: 'Sedan SC', serif;
+    font-size: 1.4rem;  // Aumenta el tamaño del texto del botón
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2rem auto;  // Centramos el botón y aumentamos el espacio arriba y abajo
+    display: block;  // Aseguramos que el botón se comporte como un bloque para centrarlo
+}
+
+.register-form button:hover {
+    background-color: #C77E01;
+}
+
+.register-form span {
+    color: #9C5CE1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.register-form span:hover {
+    color: #C77E01;
+}
+
+.account {
+    text-align: center;
+}
